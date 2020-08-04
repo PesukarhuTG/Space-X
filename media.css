@@ -1,0 +1,32 @@
+@media screen and (max-width: 735px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .main-nav {
+        margin: 20px 0;
+    }
+} 
+
+
+@media screen and (max-width: 420px) {
+    .nav-social .list {
+        flex-direction: column;
+    }
+
+    .nav-social .list li {
+        padding: 10px 0;
+    }
+
+    .footer-btn {
+        padding: 20px 50px;
+    }
+
+    .about:after {
+        height: 30px;
+    }
+
+    .specification {
+        font-size: 15px;
+    }
+}
