@@ -5,15 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
-    <link rel="icon" type="image" href="assets/favicon.png">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./media.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    <link rel="icon" type="image" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/vidbg.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <title>Space X</title>
+    <title>SpaceX</title>
 </head>
 
 <body>
@@ -42,9 +40,13 @@
         <section class="section-first container">
             <h1 class="heading">Falcon Heavy</h1>
             <p class="about">the most powerful operational rocket in the world by a factor of two</p>
-            <div class="earth">
+            
+        </section>
+
+        <section class="video container">
+            <!-- <div class="earth">
                 <img src="./img/image-earth.svg">
-            </div>
+            </div> -->
         </section>
 
         <section class="section-rocket container">
@@ -72,7 +74,7 @@
                     power. Falcon Heavy can lift the equivalent of a fully loaded 737 jetliner—complete with passengers,
                     luggage and fuel—to orbit.</p>
             </div>
-            <img src="./img/image-rocket.svg">
+            <img class="rocket" src="./img/image-rocket.png" alt="rocket" data-rellax-speed="7">
         </section>
 
         <footer class="footer container">
@@ -94,7 +96,9 @@
         </footer>
 
     </div>
-
+<script src="./js/vidbg.js"></script>
+<script src="./js/rellax.min.js"></script>
+<script src="./js/script.js"></script>
 </body>
 
 </html>
