@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
     <link rel="icon" type="image" href="./img/favicon.png">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/aos.css">
     <link rel="stylesheet" href="./css/vidbg.css">
     <link rel="stylesheet" href="./css/stars.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <title>SpaceX</title>
 </head>
@@ -23,8 +25,8 @@
 
         <header class="header container">
 
-            <img src="./img/logo.svg" alt="Logo Space X" class="logo">
-            <nav class="main-nav">
+            <img src="./img/logo.svg" alt="Logo Space X" class="logo" data-aos="fade-down">
+            <nav class="main-nav" data-aos="fade-down">
                 <ul class="list">
                     <li class="item"><a href="#" class="item-link">Falcon&#160;9</a></li>
                     <li class="item"><a href="#" class="item-link">Falcon Heavy</a></li>
@@ -32,7 +34,7 @@
                     <li class="item"><a href="#" class="item-link">Updates</a></li>
                 </ul>
             </nav>
-            <nav class="secondary-nav">
+            <nav class="secondary-nav" data-aos="fade-down">
                 <ul class="list">
                     <li class="item"><a href="#" class="item-link">About</a></li>
                     <li class="item"><a href="#" class="item-link">Gallery</a></li>
@@ -42,18 +44,18 @@
         </header>
 
         <section class="section-first container">
-            <h1 class="heading">Falcon Heavy</h1>
-            <p class="about">the most powerful operational rocket in the world by a factor of two</p>
-            
+            <h1 class="heading" data-aos="zoom-in" data-aos-delay="500">Falcon Heavy</h1>
+            <p class="about" data-aos="zoom-in" data-aos-delay="900">the most powerful operational rocket in the world by a factor of two</p>
+
         </section>
 
-        <section class="video container">
+        <section class="video container" data-aos="zoom-in" data-aos-delay="1400">
         </section>
 
         <section class="section-rocket container">
             <div class="section-rocket-content">
-                <h2>Falcon Heavy<br>Overview</h2>
-                <div class="specification">
+                <h2 data-aos="fade-right">Falcon Heavy<br>Overview</h2>
+                <div class="specification" data-aos="fade-left" data-aos-delay="400">
                     <div class="height">HEIGHT</div>
                     <div class="height-date">70&#160;m / <span>229.6&#160;ft</span></div>
                     <div class="diametr">DIAMETR</div>
@@ -67,8 +69,8 @@
                     <div class="mars">PAYLOAD TO MARS</div>
                     <div class="mars-date">16,800&#160;kg / <span>37,040&#160;lb</span></div>
                 </div>
-                <h2>UNMATCHED<br>PERFORMANCE</h2>
-                <p>With more than 5 million pounds of thrust at liftoff, Falcon Heavy is the most capable rocket flying.
+                <h2 data-aos="fade-right">UNMATCHED<br>PERFORMANCE</h2>
+                <p data-aos="fade-left" data-aos-delay="400">With more than 5 million pounds of thrust at liftoff, Falcon Heavy is the most capable rocket flying.
                     By
                     comparison, the liftoff thrust of the Falcon Heavy equals approximately eighteen 747 aircraft at
                     full
@@ -83,24 +85,32 @@
             <img src="./img/logo.svg" alt="logo">
             <nav class="nav-social">
                 <ul class="list">
-                    <li class="item"><a href="#" class="item-link">Twitter</a></li>
-                    <li class="item"><a href="#" class="item-link">Youtube</a></li>
-                    <li class="item"><a href="#" class="item-link">Instagram</a></li>
-                    <li class="item"><a href="#" class="item-link">Flickr</a></li>
-                    <li class="item"><a href="#" class="item-link">LinkedIn</a></li>
-                    <li class="item"><a href="#" class="item-link">Privacy</a></li>
-                    <li class="item"><a href="#" class="item-link">Policy</a></li>
+                    <li class="item" data-aos="zoom-in"><a href="#" class="item-link">Twitter</a></li>
+                    <li class="item" data-aos="zoom-in" data-aos-delay="400"><a href="#" class="item-link">Youtube</a></li>
+                    <li class="item" data-aos="zoom-in" data-aos-delay="800"><a href="#" class="item-link">Instagram</a></li>
+                    <li class="item" data-aos="zoom-in" data-aos-delay="1200"><a href="#" class="item-link">Flickr</a></li>
+                    <li class="item" data-aos="zoom-in" data-aos-delay="1600"><a href="#" class="item-link">LinkedIn</a></li>
+                    <li class="item" data-aos="zoom-in" data-aos-delay="2000"><a href="#" class="item-link">Privacy</a></li>
+                    <li class="item" data-aos="zoom-in" data-aos-delay="2400"><a href="#" class="item-link">Policy</a></li>
                 </ul>
             </nav>
             <p>For additional questions, contact <a href="mailto:rideshare@spacex.com">rideshare@spacex.com</a></p>
-            <a class="footer-btn" href="#">Contact&#160;us</a>
+            <button class="footer-btn" data-aos="zoom-in-up" data-aos-delay="2800">Contact&#160;us</button>
+            
+            <div class="modal">
+                <div class="modal-dialog">
+                    <p class="close-icon">&times;</p>
+                    <p>Modal window for registration</p>
+                </div>
+            </div>
 
         </footer>
 
     </div>
-<script src="./js/vidbg.js"></script>
-<script src="./js/rellax.min.js"></script>
-<script src="./js/script.js"></script>
+    <script src="./js/vidbg.js"></script>
+    <script src="./js/rellax.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/script.js"></script>
 
 </body>
 
